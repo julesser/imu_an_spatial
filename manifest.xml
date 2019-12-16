@@ -1,6 +1,6 @@
 <package>
   <description brief="Rock Driver for the Spatial Dual DGPS Module of Advanced Navigation.">
-  Rock Driver for the Spatial Dual DGPS Module of Advanced Navigation. Enhanced Precision due to RTK-Correction via a Ntrip-Client as well as Odometry Information.
+  Enhanced Localisation Precision due to RTK-Correction via a Ntrip-Client as well as Odometry Information.
   </description>
   <author>Julian Eßer/julian.esser@dfki.de</author>
   <license></license>
