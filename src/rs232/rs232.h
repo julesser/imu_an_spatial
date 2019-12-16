@@ -65,6 +65,7 @@ int SendByte(unsigned char);
 int SendBuf(unsigned char *, int);
 void CloseComport();
 int IsCTSEnabled();
+int getFileDescriptor();
 
 
 #ifdef __cplusplus

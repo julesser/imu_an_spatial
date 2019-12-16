@@ -199,6 +199,11 @@ int IsCTSEnabled(int comport_number)
   else return(0);
 }
 
+int getFileDescriptor()
+{
+  return Cport;
+}
+
 
 #else         /* windows */
 
