@@ -1,0 +1,17 @@
+<package>
+  <description brief="Rock Driver for the Spatial Dual DGPS Module of Advanced Navigation.">
+  Rock Driver for the Spatial Dual DGPS Module of Advanced Navigation. Enhanced Precision due to RTK-Correction via a Ntrip-Client as well as Odometry Information.
+  </description>
+  <author>Julian Eßer/julian.esser@dfki.de</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+</package>
