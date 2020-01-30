@@ -1153,6 +1153,7 @@ typedef struct
 	uint8_t reserved[60];
 } gpio_input_configuration_packet_t;
 
+an_packet_t *encode_rtcm_corrections_packet(uint8_t msg_size, char *buf);
 int decode_acknowledge_packet(acknowledge_packet_t *acknowledge_packet, an_packet_t *an_packet);
 an_packet_t *encode_request_packet(uint8_t requested_packet_id);
 int decode_boot_mode_packet(boot_mode_packet_t *boot_mode_packet, an_packet_t *an_packet);

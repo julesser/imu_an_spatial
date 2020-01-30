@@ -41,6 +41,7 @@
 #include "rs232/rs232.h"
 #include "an_packet_protocol.h"
 #include "spatial_packets.h"
+#include "ntripclient.h"
 
 #define RADIANS_TO_DEGREES (180.0/M_PI)
 

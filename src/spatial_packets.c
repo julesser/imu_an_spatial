@@ -64,6 +64,18 @@
  *
  */
 
+an_packet_t *encode_rtcm_corrections_packet(uint8_t msg_size, char *buf)
+{
+  an_packet_t *an_packet = an_packet_allocate(msg_size, packet_id_rtcm_corrections);
+  
+    if(an_packet != NULL)
+    { 
+        memcpy(an_packet->data, buf, msg_size);
+    }
+   
+    return an_packet;
+}
+
 int decode_acknowledge_packet(acknowledge_packet_t *acknowledge_packet, an_packet_t *an_packet)
 {
     if(an_packet->id == packet_id_acknowledge && an_packet->length == 4)

@@ -266,7 +266,7 @@ int ntrip_initialise(struct Args *args, char *buf)
 int ntrip(struct Args *args, char *buf, int *byt)
 {
  
-  
+ 
     if(args->data && *args->data != '%')
     {
       static int k = 0;

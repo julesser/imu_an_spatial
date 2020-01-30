@@ -53,6 +53,12 @@ extern "C" {
 #include <sys/stat.h>
 #include <limits.h>
 
+int Cport,
+    error;
+
+struct termios new_port_settings,
+       old_port_settings;
+
 #else
 
 #include <windows.h>
